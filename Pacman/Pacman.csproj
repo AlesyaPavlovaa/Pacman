@@ -1,0 +1,141 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\addition\1.png" />
+    <None Remove="images\addition\adds.png" />
+    <None Remove="images\addition\as.png" />
+    <None Remove="images\addition\Backgroudn.jpg" />
+    <None Remove="images\addition\BOX.png" />
+    <None Remove="images\addition\CatIcon.png" />
+    <None Remove="images\addition\CatinBoxIcon.png" />
+    <None Remove="images\addition\coconat.png" />
+    <None Remove="images\addition\DragonIcon.png" />
+    <None Remove="images\addition\heart %282%29.png" />
+    <None Remove="images\addition\heart.png" />
+    <None Remove="images\addition\Key.png" />
+    <None Remove="images\addition\Lockek.png" />
+    <None Remove="images\addition\Pacman.png" />
+    <None Remove="images\addition\PacmanIcon.png" />
+    <None Remove="images\addition\using.png" />
+    <None Remove="images\Button.mp3" />
+    <None Remove="images\Coin.mp3" />
+    <None Remove="images\GameLoud.mp3" />
+    <None Remove="images\GameOver.mp3" />
+    <None Remove="images\gosts\blue.png" />
+    <None Remove="images\gosts\orange.png" />
+    <None Remove="images\gosts\pink.png" />
+    <None Remove="images\gosts\red.png" />
+    <None Remove="images\gosts\Yellow.png" />
+    <None Remove="images\Hit.mp3" />
+    <None Remove="images\Map\backg.png" />
+    <None Remove="images\Map\zabor.png" />
+    <None Remove="images\MusicMenu.mp3" />
+    <None Remove="images\player\CatInBox%28d%29.png" />
+    <None Remove="images\player\CatInBox%28rl%29.png" />
+    <None Remove="images\player\CatInBox%28u%29.png" />
+    <None Remove="images\player\Dragon down.png" />
+    <None Remove="images\player\Dragon down1.png" />
+    <None Remove="images\player\Dragon left.png" />
+    <None Remove="images\player\Dragon left1.png" />
+    <None Remove="images\player\Dragon right.png" />
+    <None Remove="images\player\Dragon right1.png" />
+    <None Remove="images\player\Dragon up.png" />
+    <None Remove="images\player\Dragon up1.png" />
+    <None Remove="images\player\Frenchmandown 1.1.png" />
+    <None Remove="images\player\Frenchmandown 1.png" />
+    <None Remove="images\player\Frenchmanleft 1.1.png" />
+    <None Remove="images\player\Frenchmanleft 1.png" />
+    <None Remove="images\player\Frenchmanright 1.1.png" />
+    <None Remove="images\player\Frenchmanright 1.png" />
+    <None Remove="images\player\Frenchmanright 2.png" />
+    <None Remove="images\player\Frenchmanup 1.1.png" />
+    <None Remove="images\player\Frenchmanup 1.png" />
+    <None Remove="images\player\Mario.png" />
+    <None Remove="images\player\pacman-down.png" />
+    <None Remove="images\player\pacman-down1.png" />
+    <None Remove="images\player\pacman-left.png" />
+    <None Remove="images\player\pacman-left1.png" />
+    <None Remove="images\player\pacman-right.png" />
+    <None Remove="images\player\pacman-right1.png" />
+    <None Remove="images\player\pacman-up.png" />
+    <None Remove="images\player\pacman-up1.png" />
+    <None Remove="images\Win.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\addition\adds.png" />
+    <Resource Include="images\addition\as.png" />
+    <Resource Include="images\addition\Backgroudn.jpg" />
+    <Resource Include="images\addition\BOX.png" />
+    <Resource Include="images\addition\CatIcon.png" />
+    <Resource Include="images\addition\CatinBoxIcon.png" />
+    <Resource Include="images\addition\coconat.png" />
+    <Resource Include="images\addition\DragonIcon.png" />
+    <Resource Include="images\addition\heart (2).png" />
+    <Resource Include="images\addition\Key.png" />
+    <Resource Include="images\addition\Lockek.png" />
+    <Resource Include="images\addition\Pacman.png" />
+    <Resource Include="images\addition\PacmanIcon.png" />
+    <Resource Include="images\addition\using.png" />
+    <Resource Include="images\Button.mp3" />
+    <Resource Include="images\Coin.mp3" />
+    <Resource Include="images\GameLoud.mp3" />
+    <Resource Include="images\GameOver.mp3" />
+    <Resource Include="images\gosts\blue.png" />
+    <Resource Include="images\gosts\orange.png" />
+    <Resource Include="images\gosts\pink.png" />
+    <Resource Include="images\gosts\red.png" />
+    <Resource Include="images\gosts\Yellow.png" />
+    <Resource Include="images\Hit.mp3" />
+    <Resource Include="images\Map\backg.png" />
+    <Resource Include="images\Map\zabor.png" />
+    <Resource Include="images\MusicMenu.mp3" />
+    <Resource Include="images\player\CatInBox(d).png" />
+    <Resource Include="images\player\CatInBox(rl).png" />
+    <Resource Include="images\player\CatInBox(u).png" />
+    <Resource Include="images\player\Dragon left1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\player\Dragon down.png" />
+    <Resource Include="images\player\Dragon down1.png" />
+    <Resource Include="images\player\Dragon left.png" />
+    <Resource Include="images\player\Dragon right.png" />
+    <Resource Include="images\player\Dragon right1.png" />
+    <Resource Include="images\player\Dragon up.png" />
+    <Resource Include="images\player\Dragon up1.png" />
+    <Resource Include="images\player\Frenchmandown 1.1.png" />
+    <Resource Include="images\player\Frenchmandown 1.png" />
+    <Resource Include="images\player\Frenchmanleft 1.1.png" />
+    <Resource Include="images\player\Frenchmanleft 1.png" />
+    <Resource Include="images\player\Frenchmanright 1.1.png" />
+    <Resource Include="images\player\Frenchmanright 1.png" />
+    <Resource Include="images\player\Frenchmanright 2.png" />
+    <Resource Include="images\player\Frenchmanup 1.1.png" />
+    <Resource Include="images\player\Frenchmanup 1.png" />
+    <Resource Include="images\player\Mario.png" />
+    <Resource Include="images\player\pacman-down.png" />
+    <Resource Include="images\player\pacman-down1.png" />
+    <Resource Include="images\player\pacman-left.png" />
+    <Resource Include="images\player\pacman-left1.png" />
+    <Resource Include="images\player\pacman-right.png" />
+    <Resource Include="images\player\pacman-right1.png" />
+    <Resource Include="images\player\pacman-up.png" />
+    <Resource Include="images\player\pacman-up1.png" />
+    <Resource Include="images\Win.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AnimationHelper.cs">
+      <Generator>MSBuild:Compile</Generator>
+    </Compile>
+  </ItemGroup>
+
+</Project>
